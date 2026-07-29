@@ -1,5 +1,8 @@
 # facturacion-api
 
+<img src="{https://img.shields.io/badge/fastapi-109989?style=for-the-badge&logo=FASTAPI&logoColor=white}" />
+
+
 API RESTful para la gestión de facturación, desarrollada con **FastAPI** como proyecto de laboratorio. Este sistema permite administrar clientes, productos y facturas, con cálculos automáticos de subtotales, impuestos (IVA 21%) y totales, además de generar documentos PDF de las facturas utilizando **ReportLab**. Incluye autenticación JWT, migraciones con Alembic y despliegue con Docker.
 
 ## 🎯 Objetivos del laboratorio
