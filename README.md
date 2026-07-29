@@ -1,4 +1,3 @@
-```markdown
 # facturacion-api
 
 API RESTful para la gestión de facturación, desarrollada con **FastAPI** como proyecto de laboratorio. Este sistema permite administrar clientes, productos y facturas, con cálculos automáticos de subtotales, impuestos (IVA 21%) y totales, además de generar documentos PDF de las facturas utilizando **ReportLab**. Incluye autenticación JWT, migraciones con Alembic y despliegue con Docker.
