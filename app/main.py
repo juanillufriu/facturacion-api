@@ -73,3 +73,7 @@ def root():
 @app.get("/health", tags=["Health"])
 def health_check():
     return {"status": "ok"}
+
+@app.put("/items/{item_id}", tags=["Test"])
+def update_item(item_id: int, item: dict):
+    return {"item_id": item_id, "updated_item": item}
