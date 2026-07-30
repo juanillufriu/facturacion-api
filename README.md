@@ -152,5 +152,3 @@ Variables principales (todas tienen valores por defecto en el `docker-compose.ym
 | `ALGORITHM` | Algoritmo de cifrado | HS256 |
 | `ACCESS_TOKEN_EXPIRE_MINUTES` | Tiempo de expiración del token | 30 |
 | `ENVIRONMENT` | Entorno (development / production) | development |
-```
-
