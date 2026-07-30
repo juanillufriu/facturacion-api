@@ -1,8 +1,19 @@
 # facturacion-api
 
+### 📋 Project Data
+
+<p align="left">
+  <img src="https://img.shields.io/badge/Status-In%20Progress-yellow?style=for-the-badge" alt="Status">
+  <img src="https://img.shields.io/badge/Role-Backend%20Developer-darkblue?style=for-the-badge" alt="Role">
+  <img src="https://img.shields.io/badge/Author-Juan%20Ignacio%20Llufriu-lightblue?style=for-the-badge" alt="Author">    
+</p>
+
+### 🛠️ Tech Stack
+
 <p align="left">
 <img src="https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=blue" /> <img src="https://img.shields.io/badge/fastapi-109989?style=for-the-badge&logo=FASTAPI&logoColor=white" /> <img src="https://img.shields.io/badge/Pydantic-E92063?style=for-the-badge&logo=Pydantic&logoColor=white" /> <img src="https://img.shields.io/badge/PyTest-0A9EDC?style=for-the-badge&logo=pytest&logoColor=white" /> <img src="https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white" />
 </p>
+
 
 API RESTful para la gestión de facturación, desarrollada con **FastAPI** como proyecto de laboratorio. Este sistema permite administrar clientes, productos y facturas, con cálculos automáticos de subtotales, impuestos (IVA 21%) y totales, además de generar documentos PDF de las facturas utilizando **ReportLab**. Incluye autenticación JWT, migraciones con Alembic y despliegue con Docker.
 
@@ -142,3 +153,4 @@ Variables principales (todas tienen valores por defecto en el `docker-compose.ym
 | `ACCESS_TOKEN_EXPIRE_MINUTES` | Tiempo de expiración del token | 30 |
 | `ENVIRONMENT` | Entorno (development / production) | development |
 ```
+
